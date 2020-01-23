@@ -1,0 +1,88 @@
+{
+	"vehicles": [
+		{
+			"name": "Bus No 1",
+			"registration_number": "JBS 1524",
+			"make": "2012-04",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		},
+		{
+			"name": "Bus No 2",
+			"registration_number": "JBS 1528",
+			"make": "2012-05",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		},
+		{
+			"name": "Bus No 3",
+			"registration_number": "JBS 1534",
+			"make": "2012-06",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		},
+		{
+			"name": "Bus No 4",
+			"registration_number": "JBS 1685",
+			"make": "2014-01",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		},
+		{
+			"name": "Bus No 5",
+			"registration_number": "JBS 1689",
+			"make": "2014-03",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		},
+		{
+			"name": "Bus No 6",
+			"registration_number": "JBS 1702",
+			"make": "2014-08",
+			"model": "Force Travellers 30+D",
+			"max_seating_capacity": 30,
+			"max_allowed": 30,
+			"is_owned": 1,
+			"owner_name": "London International School",
+			"owner_company_name": "London International School",
+			"owner_phone": "86132475286",
+			"owner_email": "info@lis.edu",
+			"is_active": 1
+		}
+	]
+}

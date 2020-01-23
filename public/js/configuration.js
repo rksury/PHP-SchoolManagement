@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{AF4x:function(e,n,t){"use strict";t.r(n);var r={},u=t("KHd+"),i=Object(u.a)(r,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("router-view")],1)}),[],!1,null,null,null);n.default=i.exports}}]);
+//# sourceMappingURL=configuration.js.map?id=6cd7f7cfb8f556945012

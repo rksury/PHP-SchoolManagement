@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[234],{qBXY:function(e,n,t){"use strict";t.r(n);var i={methods:{},mounted:function(){$("body").removeClass("fix-header fix-sidebar"),helper.notification()},destroyed:function(){}},o=t("KHd+"),s=Object(o.a)(i,(function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("tour-notification",{staticClass:"d-none d-sm-inline"}),this._v(" "),n("router-view")],1)}),[],!1,null,null,null);n.default=s.exports}}]);
+//# sourceMappingURL=guestPage.js.map?id=8c324de2a21c54abb15c

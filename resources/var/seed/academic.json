@@ -1,0 +1,1272 @@
+{
+	"course_groups": [
+		{
+			"name": "Pre-School",
+			"description": "",
+			"courses": [
+				{
+					"name": "Nursery",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 100,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "NA",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section B",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "NB",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "LKG",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 100,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "LKGA",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section B",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "LKGB",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section C",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "LKGC",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "UKG",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 100,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "UKGA",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section B",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "UKGB",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section C",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "UKGC",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						},
+						{
+							"name": "Section D",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "UKGD",
+							"subjects": [
+								{
+									"name": "Language",
+									"description": "",
+									"code": "LAN",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Environment",
+									"description": "",
+									"code": "ENV",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Rhymes",
+									"description": "",
+									"code": "RHY",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Numbers",
+									"description": "",
+									"code": "NUM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Primary Classes",
+			"description": "",
+			"courses": [
+				{
+					"name": "Grade I",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 500,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						},
+						{
+							"name": "Section B",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IB",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade II",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 500,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade III",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 500,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IIIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade IV",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 500,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IVA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade V",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 500,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "VA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Middle Classes",
+			"description": "",
+			"courses": [
+				{
+					"name": "Grade VI",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 1000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "VIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade VII",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 1000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "VIIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade VIII",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 1000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "VIIIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Secondary Classes",
+			"description": "",
+			"courses": [
+				{
+					"name": "Grade IX",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 2000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "IXA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade X",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 2000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "XA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Higher Secondary Classes",
+			"description": "",
+			"courses": [
+				{
+					"name": "Grade XI",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 3000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "XIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Grade XII",
+					"description": "",
+					"attendance_type": "daily",
+					"enable_registration": 1,
+					"enable_registration_fee": 1,
+					"registration_fee": 3000,
+					"batches": [
+						{
+							"name": "Section A",
+							"description": "",
+							"max_strength": 25,
+							"roll_number_prefix": "XIIA",
+							"subjects": [
+								{
+									"name": "English",
+									"description": "",
+									"code": "ENG",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Secondary Language",
+									"description": "",
+									"code": "SEC",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Science",
+									"description": "",
+									"code": "SCI",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Arts",
+									"description": "",
+									"code": "ART",
+									"is_elective": 0,
+									"has_no_exam": 1,
+									"max_class_per_week": 3
+								},
+								{
+									"name": "Math",
+									"description": "",
+									"code": "MAT",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 5
+								},
+								{
+									"name": "Computer",
+									"description": "",
+									"code": "COM",
+									"is_elective": 0,
+									"has_no_exam": 0,
+									"max_class_per_week": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
