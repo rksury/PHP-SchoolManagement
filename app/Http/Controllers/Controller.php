@@ -20,7 +20,7 @@ class Controller extends BaseController
     {
         return response()->json($items)->setEncodingOptions(JSON_NUMERIC_CHECK);
     }
-    
+
     /**
      * Used to return success response
      * @return Response
