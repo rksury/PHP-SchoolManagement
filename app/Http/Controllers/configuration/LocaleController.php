@@ -121,7 +121,7 @@ class LocaleController extends Controller
     public function fetch()
     {
         $locale = $this->repo->findByLocaleOrFail(request('locale'));
-        
+
         $modules = $this->repo->getModules();
 
         $words = $this->repo->getWords(request('locale'), request('module'));
@@ -175,7 +175,7 @@ class LocaleController extends Controller
 
         foreach ($this->repo->getAll() as $locale) {
             $words = $this->repo->getWords($locale->locale, $module);
-            
+
             $words[$word] = request('translation');
 
             $this->repo->writeToFile($locale->locale, $module, $words);

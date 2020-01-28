@@ -35,7 +35,7 @@ class AuthController extends Controller
         $this->request = $request;
         $this->repo = $repo;
         $this->user = $user;
-        
+
         $this->middleware('prohibited.test.mode')->only('changePassword');
     }
 
@@ -50,9 +50,11 @@ class AuthController extends Controller
      */
     public function login(LoginRequest $request)
     {
+
+        print_r($request);
         $data = $this->repo->auth($this->request->all());
 
-        return $this->success($data);
+       return $this->success($data);
     }
 
     /**

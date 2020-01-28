@@ -33,7 +33,7 @@ class ScriptMint
         $this->repo->init();
 
         $this->config->setDefault();
-        
+
         return $next($request);
     }
 }

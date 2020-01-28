@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable implements JWTSubject
 {
     use Notifiable,HasRoles;
-    
+
     protected $guard_name = 'api';
 
     /**
@@ -30,7 +30,7 @@ class User extends Authenticatable implements JWTSubject
     protected $hidden = [
         'password', 'remember_token','activation_token'
     ];
-    
+
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *
@@ -110,7 +110,7 @@ class User extends Authenticatable implements JWTSubject
         if (! $username) {
             return $q;
         }
-        
+
         return ($s) ? $q->where('username', '=', $username) : $q->where('username', 'like', '%'.$username.'%');
     }
 

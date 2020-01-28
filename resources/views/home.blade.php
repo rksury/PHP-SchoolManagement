@@ -29,7 +29,7 @@
         </style>
     </head>
     <body class="fix-header fix-sidebar">
-        <div class="preloader">
+        <div class="pr  >
             <svg class="circular" viewBox="25 25 50 50">
                 <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
         </div>
@@ -37,7 +37,9 @@
             <router-view></router-view>
         </div>
         <script src="/js/lang"></script>
+
         <script src="{{ mix('/js/app.js') }}"></script>
+
         <script src="{{ mix('/js/plugin.js') }}"></script>
     </body>
 </html>

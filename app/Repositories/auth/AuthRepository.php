@@ -266,7 +266,7 @@ class AuthRepository
         $user = $this->getUserForOTP($mobile);
 
         $otp = generateOTP();
-        
+
         $sms = 'Your login OTP is '.$otp.'. Do not share OTP with any one. '. config('app.name');
         if ($mobile) {
             SendSMS::dispatch([$mobile], $sms);
@@ -491,7 +491,7 @@ class AuthRepository
         $password = gv($params, 'password');
 
         $this->validateResetPasswordStatus();
-    
+
         $user = $this->validateUserAndStatusForResetPassword($email);
 
         $this->validateResetPasswordToken($token, $email);
