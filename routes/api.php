@@ -24,76 +24,125 @@ Route::group(['prefix' => 'auth'], function () {
 Route::get('/config', 'Configuration\ConfigurationController@getConfig');
 
 Route::post('/frontend/contact', 'Reception\VisitorMessageController@store');
+
 Route::get('/frontend/menu/list', 'Frontend\FrontendController@listMenu');
+
 Route::get('/frontend/page/{slug}/content', 'Frontend\FrontendController@getContent');
+
 Route::get('/frontend/block/{uuid}/detail', 'Frontend\FrontendController@getBlock');
+
 Route::get('/frontend/article/list', 'Frontend\FrontendController@listArticle');
+
 Route::get('/frontend/article/{uuid}/detail', 'Frontend\FrontendController@getArticle');
+
 Route::get('/frontend/event/list', 'Frontend\FrontendController@listEvent');
+
 Route::get('/frontend/event/{uuid}/detail', 'Frontend\FrontendController@getEvent');
+
 Route::get('/frontend/teacher/list', 'Frontend\FrontendController@listTeacher');
+
 Route::get('/frontend/calendar/event', 'Frontend\FrontendController@getCalendarEvent');
+
 Route::get('/frontend/online-registration/pre-requisite', 'Frontend\FrontendController@getOnlineRegistrationPreRequisite');
+
 Route::post('/frontend/online-registration', 'Student\RegistrationController@onlineRegistration');
 
-Route::group(['middleware' => ['auth:api']], function () {
+ Route::group(['middleware' => ['auth:api']], function () {
 
 	// Authentication Routes
 	Route::post('/demo/message', 'HomeController@demoMessage');
-	Route::post('/auth/refresh', 'Auth\AuthController@refresh');
-	Route::post('/auth/me', 'Auth\AuthController@me');
-	Route::post('/auth/logout', 'Auth\AuthController@logout');
-	Route::post('/auth/lock', 'Auth\AuthController@lock');
-	Route::post('/auth/security', 'Auth\AuthController@security');
-	Route::post('/change/password', 'Auth\AuthController@changePassword');
-	Route::post('/user/preference', 'Auth\UserController@preference');
-	Route::get('/user/preference/pre-requisite', 'Auth\UserController@preferencePreRequisite');
+
+    Route::post('/auth/refresh', 'Auth\AuthController@refresh');
+
+    Route::post('/auth/me', 'Auth\AuthController@me');
+
+    Route::post('/auth/logout', 'Auth\AuthController@logout');
+
+    Route::post('/auth/lock', 'Auth\AuthController@lock');
+
+    Route::post('/auth/security', 'Auth\AuthController@security');
+
+    Route::post('/change/password', 'Auth\AuthController@changePassword');
+
+    Route::post('/user/preference', 'Auth\UserController@preference');
+
+    Route::get('/user/preference/pre-requisite', 'Auth\UserController@preferencePreRequisite');
 
 	// Upload Routes
 	Route::post('/upload', 'Upload\UploadController@upload');
-	Route::post('/upload/extension', 'Upload\UploadController@getAllowedExtension');
-	Route::post('/upload/image', 'Upload\UploadController@uploadImage');
-	Route::post('/upload/fetch', 'Upload\UploadController@fetch');
-	Route::post('/upload/{id}', 'Upload\UploadController@destroy');
+
+    Route::post('/upload/extension', 'Upload\UploadController@getAllowedExtension');
+
+    Route::post('/upload/image', 'Upload\UploadController@uploadImage');
+
+    Route::post('/upload/fetch', 'Upload\UploadController@fetch');
+
+    Route::post('/upload/{id}', 'Upload\UploadController@destroy');
 
 	// Dashboard & Report Routes
 	Route::get('/dashboard', 'HomeController@dashboard');
-	Route::post('/dashboard/calendar/event', 'HomeController@calendarEvents');
-	Route::post('/dashboard/student/strength/chart', 'HomeController@studentStrengthChart');
-	Route::get('/search', 'HomeController@search');
+
+    Route::post('/dashboard/calendar/event', 'HomeController@calendarEvents');
+
+    Route::post('/dashboard/student/strength/chart', 'HomeController@studentStrengthChart');
+
+    Route::get('/search', 'HomeController@search');
 
 	/*
 		     * Configuration Routes Start
 	*/
 	Route::get('/configuration/variable', 'Configuration\ConfigurationController@getConfigurationVariable');
-	Route::get('/configuration', 'Configuration\ConfigurationController@index');
-	Route::post('/configuration', 'Configuration\ConfigurationController@store');
-	Route::post('/configuration/{type}', 'Configuration\ConfigurationController@uploadImage');
-	Route::delete('/configuration/{type}/remove', 'Configuration\ConfigurationController@removeImage');
-	Route::get('/fetch/lists', 'Configuration\ConfigurationController@fetchList');
-	Route::post('/setup/wizard', 'Configuration\ConfigurationController@setupWizard');
+
+    Route::get('/configuration', 'Configuration\ConfigurationController@index');
+
+    Route::post('/configuration', 'Configuration\ConfigurationController@store');
+
+    Route::post('/configuration/{type}', 'Configuration\ConfigurationController@uploadImage');
+
+    Route::delete('/configuration/{type}/remove', 'Configuration\ConfigurationController@removeImage');
+
+    Route::get('/fetch/lists', 'Configuration\ConfigurationController@fetchList');
+
+    Route::post('/setup/wizard', 'Configuration\ConfigurationController@setupWizard');
 
 	Route::get('/locale', 'Configuration\LocaleController@index');
-	Route::post('/locale', 'Configuration\LocaleController@store');
-	Route::get('/locale/{id}', 'Configuration\LocaleController@show');
-	Route::patch('/locale/{id}', 'Configuration\LocaleController@update');
-	Route::delete('/locale/{id}', 'Configuration\LocaleController@destroy');
-	Route::post('/locale/fetch', 'Configuration\LocaleController@fetch');
-	Route::post('/locale/translate', 'Configuration\LocaleController@translate');
-	Route::post('/locale/add-word', 'Configuration\LocaleController@addWord');
 
-	Route::get('/role', 'Configuration\RoleController@index');
-	Route::get('/role/employee/list', 'Configuration\RoleController@employeeRoleList');
-	Route::get('/role/{id}', 'Configuration\RoleController@show');
-	Route::post('/role', 'Configuration\RoleController@store');
-	Route::delete('/role/{id}', 'Configuration\RoleController@destroy');
+    Route::post('/locale', 'Configuration\LocaleController@store');
+
+    Route::get('/locale/{id}', 'Configuration\LocaleController@show');
+
+    Route::patch('/locale/{id}', 'Configuration\LocaleController@update');
+
+    Route::delete('/locale/{id}', 'Configuration\LocaleController@destroy');
+
+    Route::post('/locale/fetch', 'Configuration\LocaleController@fetch');
+
+    Route::post('/locale/translate', 'Configuration\LocaleController@translate');
+
+    Route::post('/locale/add-word', 'Configuration\LocaleController@addWord');
+
+
+    Route::get('/role', 'Configuration\RoleController@index');
+
+    Route::get('/role/employee/list', 'Configuration\RoleController@employeeRoleList');
+
+    Route::get('/role/{id}', 'Configuration\RoleController@show');
+
+    Route::post('/role', 'Configuration\RoleController@store');
+
+    Route::delete('/role/{id}', 'Configuration\RoleController@destroy');
 
 	Route::get('/permission', 'Configuration\PermissionController@index');
-	Route::get('/permission/pre-requisite', 'Configuration\PermissionController@preRequisite');
-	Route::get('/permission/{module}/pre-requisite', 'Configuration\PermissionController@modulePreRequisite');
-	Route::get('/permission/{id}', 'Configuration\PermissionController@show');
-	Route::post('/permission', 'Configuration\PermissionController@assignPermission');
-	Route::post('/permission/module', 'Configuration\PermissionController@assignModulePermission');
+
+    Route::get('/permission/pre-requisite', 'Configuration\PermissionController@preRequisite');
+
+    Route::get('/permission/{module}/pre-requisite', 'Configuration\PermissionController@modulePreRequisite');
+
+    Route::get('/permission/{id}', 'Configuration\PermissionController@show');
+
+    Route::post('/permission', 'Configuration\PermissionController@assignPermission');
+
+    Route::post('/permission/module', 'Configuration\PermissionController@assignModulePermission');
 	/*
 		     * Configuration Routes End
 	*/
@@ -102,30 +151,49 @@ Route::group(['middleware' => ['auth:api']], function () {
 		     * Utility Routes Start
 	*/
 	Route::post('/backup', 'Utility\BackupController@store');
-	Route::get('/backup', 'Utility\BackupController@index');
-	Route::delete('/backup/{id}', 'Utility\BackupController@destroy');
 
-	Route::get('/ip-filter', 'Utility\IpFilterController@index');
-	Route::get('/ip-filter/{id}', 'Utility\IpFilterController@show');
-	Route::post('/ip-filter', 'Utility\IpFilterController@store');
-	Route::patch('/ip-filter/{id}', 'Utility\IpFilterController@update');
-	Route::delete('/ip-filter/{id}', 'Utility\IpFilterController@destroy');
+    Route::get('/backup', 'Utility\BackupController@index');
+
+    Route::delete('/backup/{id}', 'Utility\BackupController@destroy');
+
+
+    Route::get('/ip-filter', 'Utility\IpFilterController@index');
+
+    Route::get('/ip-filter/{id}', 'Utility\IpFilterController@show');
+
+    Route::post('/ip-filter', 'Utility\IpFilterController@store');
+
+    Route::patch('/ip-filter/{id}', 'Utility\IpFilterController@update');
+
+    Route::delete('/ip-filter/{id}', 'Utility\IpFilterController@destroy');
 
 	Route::get('/email-template', 'Utility\EmailTemplateController@index');
-	Route::post('/email-template', 'Utility\EmailTemplateController@store');
-	Route::get('/email-template/{id}', 'Utility\EmailTemplateController@show');
-	Route::patch('/email-template/{id}', 'Utility\EmailTemplateController@update');
-	Route::delete('/email-template/{id}', 'Utility\EmailTemplateController@destroy');
-	Route::get('/email-template/{category}/lists', 'Utility\EmailTemplateController@lists');
-	Route::get('/email-template/{id}/content', 'Utility\EmailTemplateController@getContent');
+
+    Route::post('/email-template', 'Utility\EmailTemplateController@store');
+
+    Route::get('/email-template/{id}', 'Utility\EmailTemplateController@show');
+
+    Route::patch('/email-template/{id}', 'Utility\EmailTemplateController@update');
+
+    Route::delete('/email-template/{id}', 'Utility\EmailTemplateController@destroy');
+
+    Route::get('/email-template/{category}/lists', 'Utility\EmailTemplateController@lists');
+
+    Route::get('/email-template/{id}/content', 'Utility\EmailTemplateController@getContent');
 
 	Route::get('/todo', 'Utility\TodoController@index');
-	Route::get('/todo/today', 'Utility\TodoController@getTodoOfToday');
-	Route::get('/todo/{id}', 'Utility\TodoController@show');
-	Route::post('/todo', 'Utility\TodoController@store');
-	Route::patch('/todo/{id}', 'Utility\TodoController@update');
-	Route::delete('/todo/{id}', 'Utility\TodoController@destroy');
-	Route::post('/todo/{id}/status', 'Utility\TodoController@toggleStatus');
+
+    Route::get('/todo/today', 'Utility\TodoController@getTodoOfToday');
+
+    Route::get('/todo/{id}', 'Utility\TodoController@show');
+
+    Route::post('/todo', 'Utility\TodoController@store');
+
+    Route::patch('/todo/{id}', 'Utility\TodoController@update');
+
+    Route::delete('/todo/{id}', 'Utility\TodoController@destroy');
+
+    Route::post('/todo/{id}/status', 'Utility\TodoController@toggleStatus');
 
 	Route::get('/email-log', 'Utility\EmailLogController@index');
 	Route::get('/email-log/{id}', 'Utility\EmailLogController@show');

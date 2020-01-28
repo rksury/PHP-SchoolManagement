@@ -27,15 +27,11 @@ class AuthController extends Controller
      *
      * @return void
      */
-    public function __construct(
-        Request $request,
-        AuthRepository $repo,
-        UserRepository $user
-    ) {
+    public function __construct(Request $request,AuthRepository $repo,UserRepository $user)
+    {
         $this->request = $request;
         $this->repo = $repo;
         $this->user = $user;
-
         $this->middleware('prohibited.test.mode')->only('changePassword');
     }
 
@@ -50,11 +46,11 @@ class AuthController extends Controller
      */
     public function login(LoginRequest $request)
     {
-
-        print_r($request);
         $data = $this->repo->auth($this->request->all());
 
-       return $this->success($data);
+        print_r($data);
+
+       //  return $this->success($data);
     }
 
     /**

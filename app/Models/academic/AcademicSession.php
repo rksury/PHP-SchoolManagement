@@ -72,9 +72,10 @@ class AcademicSession extends Model
 
     public function scopeFilterById($q, $id)
     {
-        if (! $id) {
+        if (! $id)
+         {
             return $q;
-        }
+         }
 
         return $q->where('id', '=', $id);
     }
@@ -86,7 +87,8 @@ class AcademicSession extends Model
 
     public function scopeFilterByName($q, $name)
     {
-        if (! $name) {
+        if (! $name)
+        {
             return $q;
         }
 

@@ -49,9 +49,12 @@ class LoginThrottleRepository
 
         $ip = getRemoteIPAddress();
 
-        if (\Cache::has($ip)) {
+        if (\Cache::has($ip))
+        {
             $throttle_attempt = \Cache::get($ip) + 1;
-        } else {
+        }
+        else
+        {
             $throttle_attempt = 1;
         }
 

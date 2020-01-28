@@ -68,9 +68,12 @@ class AuthRepository
 
         $token = $this->validateLogin($params);
 
-        if (filter_var($email_or_username, FILTER_VALIDATE_EMAIL)) {
+        if (filter_var($email_or_username, FILTER_VALIDATE_EMAIL))
+        {
             $auth_user = $this->user->findByEmail($email_or_username);
-        } else {
+        }
+        else
+        {
             $auth_user = $this->user->findByUsername($email_or_username);
         }
 

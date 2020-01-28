@@ -16,8 +16,10 @@ Route::get('/cache', 'Configuration\ConfigurationController@clearCache');
 Route::group(['middleware' => ['auth:api']], function () {
 	Route::get('/backup/{id}/download', 'Utility\BackupController@download');
 
-	Route::get('/finance/transaction/income/{uuid}/print', 'Finance\Transaction\IncomeController@printIncome');
-	Route::get('/finance/transaction/income/{uuid}/attachment/{attachment_uuid}/download', 'Finance\Transaction\IncomeController@download');
+    Route::get('/finance/transaction/income/{uuid}/print', 'Finance\Transaction\IncomeController@printIncome');
+
+    Route::get('/finance/transaction/income/{uuid}/attachment/{attachment_uuid}/download', 'Finance\Transaction\IncomeController@download');
+    
 	Route::get('/finance/transaction/expense/{uuid}/print', 'Finance\Transaction\ExpenseController@printExpense');
 	Route::get('/finance/transaction/expense/{uuid}/attachment/{attachment_uuid}/download', 'Finance\Transaction\ExpenseController@download');
 	Route::get('/finance/transaction/account/transfer/{uuid}/print', 'Finance\Transaction\AccountTransferController@printAccountTransfer');
