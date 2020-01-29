@@ -62,7 +62,8 @@ class AuthRepository
      */
     public function auth($params = array())
     {
-        $email_or_username = gv($params, 'email_or_username');
+      $email_or_username = gv($params, 'email_or_username');
+
         $this->throttle->validate();
 
         $token = $this->validateLogin($params);
@@ -124,6 +125,7 @@ class AuthRepository
 
         if (filter_var($email_or_username, FILTER_VALIDATE_EMAIL)) {
             $credentials = array('email' => $email_or_username, 'password' => $password);
+
         } else {
             $credentials = array('username' => $email_or_username, 'password' => $password);
         }

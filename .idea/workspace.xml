@@ -244,7 +244,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager" selected="PHP Script.install.php">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -272,7 +272,7 @@
       <updated>1579952236842</updated>
       <workItem from="1579952253809" duration="906000" />
       <workItem from="1580103175283" duration="3165000" />
-      <workItem from="1580219381466" duration="2323000" />
+      <workItem from="1580219381466" duration="16239000" />
     </task>
     <servers />
   </component>
@@ -288,13 +288,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="414" y="51" key="#install.php/0.0.1366.728@0.0.1366.728" timestamp="1580221084342" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1580110383226">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1580293347200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580110383226" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580293347200" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580219381033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580219381033" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1580291693225">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580291693225" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580297262154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580297262154" />
   </component>
 </project>
