@@ -63,7 +63,6 @@ class AuthRepository
     public function auth($params = array())
     {
         $email_or_username = gv($params, 'email_or_username');
-
         $this->throttle->validate();
 
         $token = $this->validateLogin($params);

@@ -46,11 +46,9 @@ class AuthController extends Controller
      */
     public function login(LoginRequest $request)
     {
-        $data = $this->repo->auth($this->request->all());
+        $data = $this->repo->auth($this->request->all())
 
-        print_r($data);
-
-       //  return $this->success($data);
+        return $this->success($data);
     }
 
     /**
